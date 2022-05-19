@@ -2,7 +2,7 @@ use Socket;
 use strict;
  
 if ($#ARGV != 3) {
-  print "-Tip on use : perl DDoS.pl 8.8.8.8 80 2048 500\n";
+  print "perl jddos.pm ip port size time\n";
   exit(1);
 }
  
